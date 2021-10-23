@@ -357,10 +357,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .hero-content h2 {
   color: #F2F2F2;
-  margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
-  padding-top: 13.5vh;
+  margin: 8vh 0 4vh 0;
 }
 #hero .hero-content h2 span {
   color: #232659;
@@ -382,6 +381,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
+  margin: 2vh 0 4vh 0;
 }
 
 #hero .btn-projects {
