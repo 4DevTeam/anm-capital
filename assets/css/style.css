@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #50d8af;
+  color: #090316;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -802,6 +802,12 @@ section {
   font-weight: 700;
   margin-bottom: 20px;
 }
+.portfolio-details .portfolio-info h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
