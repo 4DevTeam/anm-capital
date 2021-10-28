@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
-  color: #444;
+  background: #0a0808;
+  color: rgb(255, 255, 255);
   font-family: "Open Sans", sans-serif;
 }
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fff;
+  background: #0a0808;
   border-bottom: 1px solid #eee;
   font-size: 14px;
   padding: 0;
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 80px;
   transition: all 0.5s;
   z-index: 997;
-  background: #fff;
+  background: #0a0808;
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 #header #logo h1 {
@@ -479,7 +479,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #fafafa;
+  background-color: #0a0808;
   min-height: 40px;
 }
 .breadcrumbs h2 {
@@ -1113,7 +1113,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f2f5f8;
+  background: #0a0808;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
