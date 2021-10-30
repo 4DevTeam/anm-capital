@@ -226,7 +226,7 @@
 }
 
 .gslide-inline {
-  background: #fff;
+  background: #0a0808;
   text-align: left;
   max-height: calc(100vh - 40px);
   overflow: auto;
@@ -257,7 +257,7 @@
   display: flex;
   width: 100%;
   min-width: 100%;
-  background: #fff;
+  background: #0a0808;
   padding: 0;
   overflow: auto;
   max-height: 75vh;
@@ -347,7 +347,7 @@
 }
 
 .glightbox-mobile .glightbox-container .gslide-title {
-  color: #fff;
+  color: #0a0808;
   font-size: 1em;
 }
 
@@ -356,7 +356,7 @@
 }
 
 .glightbox-mobile .glightbox-container .gslide-desc a {
-  color: #fff;
+  color: #0a0808;
   font-weight: bold;
 }
 
@@ -365,11 +365,11 @@
 }
 
 .glightbox-mobile .glightbox-container .gslide-desc string {
-  color: #fff;
+  color: #0a0808;
 }
 
 .glightbox-mobile .glightbox-container .gslide-desc .desc-more {
-  color: #fff;
+  color: #0a0808;
   opacity: 0.4;
 }
 
@@ -415,7 +415,7 @@
   width: 25px;
   -webkit-animation: lightboxLoader 0.8s infinite linear;
   animation: lightboxLoader 0.8s infinite linear;
-  border: 2px solid #fff;
+  border: 2px solid #0a0808;
   border-right-color: transparent;
   border-radius: 50%;
   position: absolute;
@@ -433,12 +433,12 @@
   position: fixed;
   top: -1px;
   left: 0;
-  background: #000;
+  background: #fff;
   will-change: opacity;
 }
 
 .glightbox-mobile .goverlay {
-  background: #000;
+  background: #fff;
 }
 
 .gprev,
@@ -483,7 +483,7 @@
 .gprev .garrow,
 .gnext .garrow,
 .gclose .garrow {
-  stroke: #fff;
+  stroke: #0a0808;
 }
 
 .gbtn.focused {
@@ -504,7 +504,7 @@ iframe.wait-autoplay {
 /*Skin */
 
 .glightbox-clean .gslide-description {
-  background: #fff;
+  background: #0a0808;
 }
 
 .glightbox-clean .gdesc-inner {
@@ -515,7 +515,7 @@ iframe.wait-autoplay {
   font-size: 1em;
   font-weight: normal;
   font-family: arial;
-  color: #000;
+  color: #fff;
   margin-bottom: 19px;
   line-height: 1.4em;
 }
@@ -528,7 +528,7 @@ iframe.wait-autoplay {
 }
 
 .glightbox-clean .gslide-video {
-  background: #000;
+  background: #fff;
 }
 
 .glightbox-clean .gprev,
@@ -541,7 +541,7 @@ iframe.wait-autoplay {
 .glightbox-clean .gprev path,
 .glightbox-clean .gnext path,
 .glightbox-clean .gclose path {
-  fill: #fff;
+  fill: #0a0808;
 }
 
 .glightbox-clean .gprev {
@@ -937,6 +937,6 @@ iframe.wait-autoplay {
 
 @media screen and (max-height: 420px) {
   .goverlay {
-    background: #000;
+    background: #fff;
   }
 }
