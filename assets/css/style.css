@@ -987,17 +987,17 @@ section {
 }
 #contact .contact-info address, #contact .contact-info p {
   margin-bottom: 0;
-  color: #999;
+  color: #fff;
 }
 #contact .contact-info h3 {
   font-size: 18px;
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #fff;
 }
 #contact .contact-info a {
-  color: #999;
+  color: #fff;
 }
 #contact .contact-info a:hover {
   color: #fff;
@@ -1076,6 +1076,9 @@ section {
   box-shadow: none;
   font-size: 15px;
 }
+#form-control {
+  color: #fff !important;
+}
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
   background-color: #50d8af;
 }
@@ -1084,7 +1087,7 @@ section {
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
-  color: #0a0808;
+  color: #fff;
   transition: 0.4s;
   cursor: pointer;
 }
