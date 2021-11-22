@@ -1099,12 +1099,12 @@ input[type=submit] {
 #contact .php-email-form textarea::focus {
   background-color: #50d8af;
 }
-#contact .php-email-form button[type=submit] {
+#contact .php-email-form input[type=submit] {
   background: #50d8af;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
-  color: rgb(160, 20, 20);
+  color: rgb(255, 255, 255);
   transition: 0.4s;
   cursor: pointer;
 }
