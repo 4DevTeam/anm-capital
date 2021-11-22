@@ -975,6 +975,18 @@ section {
 #contact {
   padding: 30px 0;
 }
+#form -group {
+  color: #fff;
+}
+input[type=submit] {
+  background-color: #18d26e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 #contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
@@ -1070,16 +1082,21 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-#contact .php-email-form input, #contact .php-email-form textarea {
+#contact .php-email-form textarea {
   padding: 10px 14px;
+  color: #fff;
   border-radius: 0;
   box-shadow: none;
   font-size: 15px;
 }
-#form-control {
-  color: #fff !important;
+#contact .php-email-form input {
+  padding: 10px 14px;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
 }
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+#contact .php-email-form textarea::focus {
   background-color: #50d8af;
 }
 #contact .php-email-form input[type=submit] {
@@ -1087,7 +1104,7 @@ section {
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   transition: 0.4s;
   cursor: pointer;
 }
