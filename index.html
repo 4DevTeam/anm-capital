@@ -286,6 +286,7 @@
             emailjs.sendForm('service_4uggf4c', 'template_dpyq07q', this)
                 .then(function() {
                     console.log('SUCCESS!');
+                    location.reload();
                 }, function(error) {
                     console.log('FAILED...', error);
                 });
